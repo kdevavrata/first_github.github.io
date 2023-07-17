@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Add any additional CSS styles here */
+/* Reset default browser styles */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Overall styling */
+body {
+  background: #f1f1f1;
+}
+
+/* Dashboard styling */
+.dashboard {
+  background: #cd853f;
+  height: 50px;
+  padding: 30px;
+}
+
+.dashboard ul {
+  list-style-type: none;
+}
+
+.dashboard ul li {
+  display: inline;
+  height: 46px;
+
+}
+
+.dashboard ul li a {
+  color: #fff;
+  display: inline-block;
+  padding: 25px;
+  text-decoration: none;
+}
+
+
+
+/* Content styling */
+.content {
+  margin: 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product {
+  display: inline-block;
+  margin-right: 200px;
+  width: 200px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.product h2 {
+  font-size: 80px;
+  margin: 10px 15px;
+}
+
+.product p {
+  margin-bottom: 100px;
+}
+
+.product button {
+  background: #a0522d;
+  border: none;
+  color: #fff;
+  padding: 24px 45px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: #8b4513;
+}
+</style>
+<div class="dashboard">
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Offers</a></li>
+      <li><a href="#">Newly Launched</a></li>
+      <li><a href="#">Premium</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to our E-Commerce Store</h1>
+    <p>Check out our wide range of electronic items.</p>
+
+    <div class="product">
+      <img src="A52.jpg" alt="Galaxy A52">
+      <h2>Galaxy A52</h2>
+      <p>Description of product 1.</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="Xiaomi Note 9.jpeg" alt="Product 2">
+      <h2>Xiaomi Note 9</h2>
+      <p>Description of product 2.</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+  <script src="Ecom.js"></script>
+</body>
+</html>
